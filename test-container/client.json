@@ -2,8 +2,6 @@
   "client": {
     "name": "test-container",
     "address": "testcontainer",
-    "subscriptions": [
-      "test"
-    ]
+    "subscriptions": ["default"]
   }
 }

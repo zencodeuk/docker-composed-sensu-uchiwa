@@ -6,7 +6,7 @@ RUN apt-get install -y wget
 RUN wget -q "http://repositories.sensuapp.org/apt/pubkey.gpg" -O- | apt-key add -
 RUN echo "deb     http://repositories.sensuapp.org/apt sensu main" | tee /etc/apt/sources.list.d/sensu.list
 RUN apt-get update
-RUN apt-get install -y sensu
+RUN apt-get install -y sensu sudo
 
 # sensu default configuration
 COPY config.json /etc/sensu/config.json

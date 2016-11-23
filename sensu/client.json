@@ -1,9 +1,0 @@
-{
-  "client": {
-    "name": "sensu-container",
-    "address": "sensu",
-    "subscriptions": [
-      "sensu"
-    ]
-  }
-}

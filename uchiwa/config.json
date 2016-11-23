@@ -1,8 +1,8 @@
 {
   "sensu": [
     {
-      "name": "sensu-api",
-      "host": "sensu",
+      "name": "sensu",
+      "host": "172.17.0.5",
       "port": 4567,
       "user": "",
       "pass": ""
